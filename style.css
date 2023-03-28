@@ -1,0 +1,157 @@
+/* Global Styles */
+nav{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+nav a{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #2b2d42;
+}
+
+@media (min-width: 440px){
+    nav a{
+        margin: 14px;
+        font-size: 16px;
+    }
+}
+
+header{
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #2b2d42;
+    color: #8d99ae;
+}
+
+header h2 {
+    font-size: 38px;
+    color: #edf2f4;
+    margin-top: -50px;
+    margin-left: 180px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 180px;
+    text-align: justify;
+}
+
+main h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+main h4 {
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+main p {
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.content-wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px 40px;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+@media (min-width: 935px) {
+    .content-wrap{
+        flex-direction: row;
+    }
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+@media (min-width: 440px){
+    .profile-img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 935px){
+    .profile-img{
+        width: 260px;
+        height: 260px;
+    }
+}
+
+p a {
+    color: crimson;
+}
+
+.Education{
+    padding-top: 20px;
+}
+
+/* @media (min-width: 935px) {
+    .education-description p:first-of-type{
+        margin-top: 0;
+    }
+} */
+
+.education-wrapper{
+    margin: 0 auto;
+    padding: 0 30px;
+    /* max-width: 1250px; */
+}
+
+.institution{
+    display: block;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 935px){
+    .institution{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        column-gap: 150px;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: #2b2d42;
+    color: #8d99ae;
+}
+
+.contact-wrapper{
+    margin-top: 20px;
+    /* padding: 50px 0; */
+}
+
+.contact-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: #8d99ae solid 2px;
+}

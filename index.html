@@ -3,75 +3,122 @@
   <head>
     <meta charset="UTF-8">
     <title>Tianya Zhao Homepage</title>
-    <style>
-      h1, h2, h3, h4, h5, h6 {
-        font-weight: bold;
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-      }
-      
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h2>Tianya Zhao</h2>
-<!--     <h2>Academic CV</h2> -->
+    <!-- <h2>Tianya Zhao</h2> -->
+
+    <!--Intro-->
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Research">Reseach</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="about" class="content-wrap">
+            <img class="profile-img" src="./assets/IMG_5057.JPG" />
+            <div class="col-white">
+                <h2>Tianya Zhao</h2>
+                <p>I am a first-year Ph.D. student studying computer science at FIU, supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>.
+                    Prior to this, I received my Master's degree from Carnegie Mellon University and my Bachelor's degree from Hunan University.
+                    In my current PhD program, I am focusing on Wireless Sensing, AIoT and Smart Health.
+                    I am excited about the potential impact my research can have on the field of computer science and beyond.
+                    Outside of my academic pursuits, I like to play soccer and go hiking.  
+                </p>
+            </div>
+        </div>
+    </header>
     
-    <h3>Education</h3>
-    <ul>
-      <li><strong>Ph.D. Student, Computer Science,</strong> Florida International University, 2025</li>
-      <li><strong>Master of Science, Civil Engineering,</strong> Carnegie Mellon University, 2022</li>
-      <li><strong>Bachelor of Engineering, Civil Engineering,</strong> Hunan University, 2019</li>
-    </ul>
-    
-    <h3>Research Experience</h3>
-    
-    <h4>Reseach Interests</h4>
-    <ul>
-      Wireless Sensing; Wireless Security; AIoT; Smart Health; Machine Learning
-    </ul>
-    
-<!--     <h4>Research Project Title</h4> -->
-    
-    <p><strong>Research Assistant</strong></p>
-    <ul>
-      <li>Hunan University, 2021, Human behavior analysis in buildings.</li>
-    </ul>
-    
-    <h3>Teaching Experience</h3>
-    <p><strong>Teaching Assistant</strong></p>
-    <ul>
-      <li>Florida International University, Spring 2023, Machine Learning</li>
-      <li>Florida International University, Fall 2022, Machine Learning</li>
-    </ul>
+    <main>
+        <!-- Education -->
+        <section id="Education" class="Education">
+            <div class="education-wrapper">
+                <h3>Education</h3>
+                <!-- edu 1 -->
+                <div class="institution">
+                    <div>
+                        <p><strong>Florida International University</strong>, Computer Science, Ph.D. Student</p>
+                    </div>
+                    <div class="education-description">
+                        <!-- <p>2022 - Now</p> -->
+                        <p>Miami, Florida</p>
+                    </div>
+                </div>
+                <!-- edu 2 -->
+                <div class="institution">
+                    <div>
+                        <p><strong>Carnegie Mellon University</strong>, Civil Engineering, Master of Science</p>
+                    </div>
+                    <div class="education-description">
+                        <!-- <p>2022</p> -->
+                        <p>Pittsburgh, Pennsylvania, 2022</p>
+                    </div>
+                </div>
+                <!-- edu 3 -->
+                <div class="institution">
+                    <div>
+                        <p><strong>Hunan University</strong>, Civil Engineering, Bachelor of Engineering</p>
+                    </div>
+                    <div class="education-description">
+                        <!-- <p>2022</p> -->
+                        <p>Changsha, Hunan, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intern -->
+        <section id="Intern" class="Education">
+            <div class="education-wrapper">
+                <h3>Internship</h3>
+                <p><strong>Research Assistant</strong>, Hunan University, 2021, Human behavior analysis in buildings.</p>
+            </div>
+        </section>
+
+        <!-- Teaching -->
+        <section id="Teaching" class="Education">
+            <div class="education-wrapper">
+                <h3>Teaching Experience</h3>
+                <p><strong>Teaching Assistant</strong>, Machine Learning, Florida International University, Spring 2023</p>
+                <p><strong>Teaching Assistant</strong>, Machine Learning, Florida International University, Fall 2022</p>
+            </div>
+        </section>
+
+        <!-- Research -->
+        <section id="Research" class="Education">
+            <div class="education-wrapper">
+                <h3>Research Experience</h3>
+                <h4>Research Interests</h4>
+                <p>Wireless Sensing; Wireless Security; AIoT; Smart Health; Machine Learning</p>
+
+                <!-- <h4>Award</h4> -->
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="Publications" class="Education">
+            <div class="education-wrapper">
+                <h3>Publications</h3>
+                <ul>
+                    <li>Azhar Chara*, <strong>Tianya Zhao*</strong>, Xuyu Wang, and Shiwen Mao, “Respiratory Biofeedback Using Acoustic Sensing with Smartphones,” in <i>Proc. IEEE/ACM CHASE 2023</i>, Orlando, FL, June 2023. (*co-first author)</li>
+                    <li>Harshit Ambalkar, <strong>Tianya Zhao</strong>, Xuyu Wang, and Shiwen Mao, “Adversarial Attack and Defense for Wi- Fi-based Vital Sign Monitoring,” in <i>Proc. IEEE INFOCOM Posters</i>, Hoboken, NJ, May 2023.</li>
+                    <li>Steven Mackey, <strong>Tianya Zhao</strong>, Xuyu Wang, and Shiwen Mao, “Poster Abstract: Cross-Domain Adaptation for RF Fingerprinting Using Prototypical Networks,” in <i>Proc. ACM SenSys 2022</i>, Boston, MA, Nov. 2022, pp.812–813.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
       
-    
-    <h3>Publications</h3>
-    <ul>
-      <li>Azhar Chara*, Tianya Zhao*, Xuyu Wang, and Shiwen Mao, “Respiratory Biofeedback Using Acoustic Sensing with Smartphones,” in <i>Proc. IEEE/ACM CHASE 2023</i>, Orlando, FL, June 2023. (*co-first author)</li>
-      <li>Harshit Ambalkar, Tianya Zhao, Xuyu Wang, and Shiwen Mao, “Adversarial Attack and Defense for Wi- Fi-based Vital Sign Monitoring,” in <i>Proc. IEEE INFOCOM Posters</i>, Hoboken, NJ, May 2023.</li>
-      <li>Steven Mackey, Tianya Zhao, Xuyu Wang, and Shiwen Mao, “Poster Abstract: Cross-Domain Adaptation for RF Fingerprinting Using Prototypical Networks,” in <i>Proc. ACM SenSys 2022</i>, Boston, MA, Nov. 2022, pp.812–813.</li>
-    </ul>
-    
-<!--     <h3>Conference Presentations</h3>
-    <ul>
-      <li>Presentation 1</li>
-      <li>Presentation 2</li>
-      <li>Presentation 3</li>
-    </ul> -->
-    
-<!--     <h3>Awards and Honors</h3>
-    <ul>
-      <li>Award or honor 1</li>
-      <li>Award or honor 2</li>
-      <li>Award or honor 3</li>
-    </ul> -->
-    
-<!--     <h3>Skills and Expertise</h3>
-    <ul>
-      <li>Skill or expertise 1</li>
-      <li>Skill or expertise 2</li>
-      <li>Skill or expertise 3</li>
-    </ul> -->
-    
+    <!-- Footer & Contact -->
+    <footer id="contact">
+        <div class="contact-wrapper">
+            <h2>Let's keep in touch!</h2>
+            <div class="contact-buttons">
+                <a href="https://www.linkedin.com/in/tianya-zhao" target="_blank" rel="noopener"><img class="contact-img" src="./assets/linkedin.png" /></a>
+                <a href="mailto:tzhao010@fiu.edu" target="_blank" rel="noopener"><img class="contact-img" src="./assets/email.png" /></a>
+            </div>
+        </div>
+    </footer>
+
   </body>
 </html>
