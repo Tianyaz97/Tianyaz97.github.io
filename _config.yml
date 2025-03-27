@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Tianya Zhao"
-  avatar           : "images/avatar.JPG"
+  avatar           : "images/avatar.jpg"
   bio              : "Florida International University"
   location         : "Miami, Florda, USA"
   employer         :
