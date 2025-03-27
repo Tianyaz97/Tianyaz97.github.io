@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. candidate studying computer science at Florida International University (FIU), supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to this, I received my Master's degree from Carnegie Mellon University and my Bachelor's degree from Hunan University.
+My name is Tianya Zhao (赵天涯). I am a Ph.D. candidate studying computer science at Florida International University (FIU), supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to this, I received my Master's degree from Carnegie Mellon University and my Bachelor's degree from Hunan University.
 
 My research interest includes Trustworthy AI, AIoT, Wireless Sensing, and Smart Health. I am excited about the potential impact my research can have on the field of computer science and beyond. Outside of my academic pursuits, I like playing soccer⚽️ and hiking🧗.
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
