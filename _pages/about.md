@@ -69,6 +69,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 </ol>
 
 # 🎖 Honors and Awards
+- *2025.5* FIU GPSC Conference Travel Funding.
 - *2024.5* NSF Student Travel Award for IEEE INFOCOM 2024. 
 - *2023.6* NSF Student Travel Award for IEEE/ACM CHASE 2023.
 - *2018.6* Men's Soccer League Champion of Hunan University.
@@ -80,7 +81,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 - *Reviewer* IEEE Transactions on Wireless Communications (TWC)
 - *Reviewer* IEEE Transactions on Mobile Computing (TMC)
 
-# 🧑‍🏫 Teaching
+# 🧑‍🏫 Teaching and Mentorship
 - *Teaching Assistant*, Machine Learning, Florida International University, Fall 2022 - Summer 2024
 
 <!-- # 💬 Invited Talks
