@@ -80,6 +80,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 - *Reviewer* ACM Transactions on Sensor Networks (TOSN)
 - *Reviewer* IEEE Transactions on Wireless Communications (TWC)
 - *Reviewer* IEEE Transactions on Mobile Computing (TMC)
+- *Reviewer* Ad Hoc Networks
 
 # 🧑‍🏫 Teaching and Mentorship
 - *Teaching Assistant*, Machine Learning, Florida International University, Fall 2022 - Summer 2024
