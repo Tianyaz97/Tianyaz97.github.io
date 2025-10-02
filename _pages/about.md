@@ -20,6 +20,8 @@ redirect_from:
 My name is Tianya Zhao (赵天涯). I am a Ph.D. candidate studying computer science at Florida International University (FIU), supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to this, I received my Master's degree from Carnegie Mellon University and my Bachelor's degree from Hunan University.
 
 My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for Time Series, and Smart Health. I am excited about the potential impact my research can have on the field of computer science and beyond. Outside of my academic pursuits, I like playing soccer⚽️ and hiking🧗.
+
+<i><span style="color:red">I am currently on the job market, seeking faculty positions in academia as well as research scientist roles in industry.</span></i>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 📖 Educations
@@ -49,13 +51,13 @@ My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for T
 </div> -->
 Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=XjK-arkAAAAJ).
 
-**Selected Conference & Workshop Publications**
+**Selected Conference Publications**
 <ol reversed>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, and Xuyu Wang, "Membership Inference Against Self-supervised IMU Sensing Applications", in <i style="color: red;">Proc. ACM SenSys 2025</i>, Irvine, CA, May 2025. (Acceptance rate: 46/245=18.8%)</li>
   <li>Ningning Wang, <strong>Tianya Zhao</strong>, Shiwen Mao, and Xuyu Wang, "Privacy-Preserving Wi-Fi Data Generation via Differential Privacy in Diffusion Models", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, Junqing Zhang, and Xuyu Wang, "Protocol-agnostic and Data-free Backdoor Attacks on Pre-trained Models in RF Fingerprinting", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, Guanqun Cao, Shiwen Mao, and Xuyu Wang, "Functional Data Analysis Assisted Cross-Domain Wi-Fi Sensing Using Few-Shot Learning," in <i>Proc. IEEE ICC 2024</i>, Denver, CO, June 2024.</li>
-  <li><strong>Tianya Zhao</strong>, Ningning Wang, Yanzhao Wu, Wenbin Zhang, and Xuyu Wang, "Backdoor Attacks Against Low-Earth Orbit Satellite Fingerprinting," in <i>Proc. IEEE INFOCOM Workshop</i>, Vancouver, Canada, May 2024.</li>
+  <!-- <li><strong>Tianya Zhao</strong>, Ningning Wang, Yanzhao Wu, Wenbin Zhang, and Xuyu Wang, "Backdoor Attacks Against Low-Earth Orbit Satellite Fingerprinting," in <i>Proc. IEEE INFOCOM Workshop</i>, Vancouver, Canada, May 2024.</li> -->
   <li><strong>Tianya Zhao</strong>, Xuyu Wang, Junqing Zhang, and Shiwen Mao, "Explanation-Guided Backdoor Attacks on Model-Agnostic RF Fingerprinting," in <i style="color: red;">Proc. IEEE INFOCOM 2024</i>, Vancouver, Canada, May 2024. (Acceptance rate: 256/1307=19.6%)</li>
   <li><strong>Tianya Zhao</strong>, Xuyu Wang, and Shiwen Mao, "Cross-domain, Scalable, and Interpretable RF Device Fingerprinting," in <i style="color: red;">Proc. IEEE INFOCOM 2024</i>, Vancouver, Canada, May 2024. (Acceptance rate: 256/1307=19.6%).</li>
   <li><strong>Tianya Zhao</strong>, Xuyu Wang, and Shiwen Mao, "Backdoor Attacks Against Deep Learning-based Massive MIMO Localization," in <i>Proc. IEEE GLOBECOM 2023</i>, Kuala Lumpur, Malaysia, Dec. 2023.</li>
@@ -72,17 +74,18 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 - *2025.5* FIU GPSC Conference Travel Funding.
 - *2024.5* NSF Student Travel Award for IEEE INFOCOM 2024. 
 - *2023.6* NSF Student Travel Award for IEEE/ACM CHASE 2023.
-- *2018.6* Men's Soccer League Champion of Hunan University.
+- *2018.6* Men's Football League Champion of Hunan University.
 
 # 📗 Services
 - *Program Committee* ACM 2024 S3 Workshop, in conjunction with MobiCom 2024
 - *Reviewer* IEEE INFOCOM DeepWireless Workshop 2023, 2024, 2025
+- *Reviewer* ACM MobiCom MLNextG Workshop 2024
 - *Reviewer* ACM Transactions on Sensor Networks (TOSN)
 - *Reviewer* IEEE Transactions on Wireless Communications (TWC)
 - *Reviewer* IEEE Transactions on Mobile Computing (TMC)
 - *Reviewer* Ad Hoc Networks
 
-# 🧑‍🏫 Teaching and Mentorship
+# 🧑‍🏫 Teaching
 - *Teaching Assistant*, Machine Learning, Florida International University, Fall 2022 - Summer 2024
 
 <!-- # 💬 Invited Talks
