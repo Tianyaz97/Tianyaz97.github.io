@@ -77,7 +77,8 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 - *2018.6* Men’s Football League Champion, Hunan University.
 
 # 📗 Services
-- *Program Committee*, ACM 2024 S3 Workshop, in conjunction with MobiCom 2024
+- *TPC Member*, IEEE ICNC 2026
+- *TPC Member*, ACM 2024 S3 Workshop, in conjunction with MobiCom 2024
 - *Reviewer*, IEEE INFOCOM DeepWireless Workshop 2023, 2024, 2025
 - *Reviewer*, ACM MobiCom MLNextG Workshop 2024
 - *Reviewer*, ACM Transactions on Sensor Networks (TOSN)
