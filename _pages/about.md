@@ -30,6 +30,7 @@ My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for T
 - *2019.6*, B.Eng in Civil Engineering, Hunan University, Changsha, Hunan, China. 
 
 # 🔥 News
+- *2025.10*: I am invited to serve as a TPC of IEEE ICNC 2026. Please consider submitting your papers.
 - *2025.03*: I passed my dissertation proposal defense!
 - *2025.02*: One paper has been accepted by ACM SenSys 2025.  
 - *2024.12*: Two papers have been accepted by IEEE INFOCOM 2025. 
