@@ -30,6 +30,7 @@ My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for T
 - *2019.6*, B.Eng in Civil Engineering, Hunan University, Changsha, Hunan, China. 
 
 # 🔥 News
+- *2026.01*: *EMPalm* has been accepted by ACM SenSys 2026. Congratulations, Haowen!
 - *2025.10*: One paper has been accepted by IEEE TMC.
 - *2025.10*: I am invited to serve as a TPC of IEEE ICNC 2026. Please consider submitting your papers.
 - *2025.03*: I passed my dissertation proposal defense!
@@ -55,6 +56,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 **Selected Conference Publications**
 <ol reversed>
+  <li>Haowen Xu, <strong>Tianya Zhao</strong>, Xuyu Wang, Lei Ma, Jun Dai, Alexander Wyglinski, and Xiaoyan Sun, "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channel", in <i style="color: red;">Proc. ACM SenSys 2026</i>, Saint-Malo, France, May 2026. (Acceptance rate: 52/263=19.8%)</li>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, and Xuyu Wang, "Membership Inference Against Self-supervised IMU Sensing Applications", in <i style="color: red;">Proc. ACM SenSys 2025</i>, Irvine, CA, May 2025. (Acceptance rate: 46/245=18.8%)</li>
   <li>Ningning Wang, <strong>Tianya Zhao</strong>, Shiwen Mao, and Xuyu Wang, "Privacy-Preserving Wi-Fi Data Generation via Differential Privacy in Diffusion Models", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, Junqing Zhang, and Xuyu Wang, "Protocol-agnostic and Data-free Backdoor Attacks on Pre-trained Models in RF Fingerprinting", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
