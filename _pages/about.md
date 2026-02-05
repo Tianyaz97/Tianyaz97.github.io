@@ -57,6 +57,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 **Selected Conference Publications**
 <ol reversed>
   <li>Haowen Xu, <strong>Tianya Zhao</strong>, Xuyu Wang, Lei Ma, Jun Dai, Alexander Wyglinski, and Xiaoyan Sun, "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channel", in <i style="color: red;">Proc. ACM SenSys 2026</i>, Saint-Malo, France, May 2026. (Acceptance rate: 52/263=19.8%)</li>
+  <li><strong>Tianya Zhao</strong> and Xuyu Wang, "Data-Free Backdoor Attacks on Self-Supervised Human Activity Recognition Models," in <i>Proc. IEEE MASS 2025</i>, Chicago, IL, Oct. 2025.</li>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, and Xuyu Wang, "Membership Inference Against Self-supervised IMU Sensing Applications", in <i style="color: red;">Proc. ACM SenSys 2025</i>, Irvine, CA, May 2025. (Acceptance rate: 46/245=18.8%)</li>
   <li>Ningning Wang, <strong>Tianya Zhao</strong>, Shiwen Mao, and Xuyu Wang, "Privacy-Preserving Wi-Fi Data Generation via Differential Privacy in Diffusion Models", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
   <li><strong>Tianya Zhao</strong>, Ningning Wang, Junqing Zhang, and Xuyu Wang, "Protocol-agnostic and Data-free Backdoor Attacks on Pre-trained Models in RF Fingerprinting", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
@@ -71,6 +72,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 **Journal Publications**
 <ol reversed>
+  <li><strong>Tianya Zhao</strong>, Junqing Zhang, Jun Dai, Xiaoyan Sun, and Xuyu Wang, "Unveiling the Threat: Data-Free Backdoor Attacks on Pre-Trained Models for RF Fingerprinting," <i>IEEE Transactions on Mobile Computing</i>, Just Accepted</li>
   <li><strong>Tianya Zhao</strong>, Junqing Zhang, Shiwen Mao, and Xuyu Wang, "Explanation-guided backdoor attacks against model-agnostic RF fingerprinting systems", <i>IEEE Transactions on Mobile Computing</i>, vol.24, no.3, pp.2029-2042, Mar. 2025. DOI: 10.1109/TMC.2024.3487967.</li>
 </ol>
 
@@ -85,10 +87,12 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 - *TPC Member*, ACM 2024 S3 Workshop, in conjunction with MobiCom 2024
 - *Reviewer*, IEEE INFOCOM DeepWireless Workshop 2023, 2024, 2025
 - *Reviewer*, ACM MobiCom MLNextG Workshop 2024
+- *Reviewer*, ACM CCS Posters 2024
 - *Reviewer*, ACM Transactions on Sensor Networks (TOSN)
 - *Reviewer*, IEEE Journal on Selected Areas in Communications (JSAC)
 - *Reviewer*, IEEE Transactions on Wireless Communications (TWC)
 - *Reviewer*, IEEE Transactions on Mobile Computing (TMC)
+- *Reviewer*, IEEE Transactions on Cognitive Communications and Networking (TCCN)
 - *Reviewer*, Ad Hoc Networks
 
 # 🧑‍🏫 Teaching
