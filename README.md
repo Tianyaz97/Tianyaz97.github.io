@@ -1,6 +1,6 @@
 
 <h1 align="center">
- Home Page for Tianya Zhao. This repo is copied from [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io)
+ Home Page for Tianya Zhao. This repo was created by OpenAI Codex.
 </h1>
 
 For more information, please visit the original website.
