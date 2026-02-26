@@ -107,3 +107,238 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ===== Custom redesign for Tianya Zhao academic homepage ===== */
+:root {
+  --tz-bg: #eef4ff;
+  --tz-panel: rgba(255, 255, 255, 0.82);
+  --tz-panel-soft: rgba(255, 255, 255, 0.7);
+  --tz-text: #132742;
+  --tz-muted: #4d6488;
+  --tz-accent: #1368ce;
+  --tz-accent-2: #cd8612;
+  --tz-border: rgba(38, 86, 150, 0.2);
+  --tz-shadow: 0 16px 34px rgba(37, 72, 124, 0.15);
+}
+
+body {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  color: var(--tz-text);
+  background:
+    radial-gradient(circle at 10% 6%, rgba(117, 183, 255, 0.28), transparent 36%),
+    radial-gradient(circle at 92% 2%, rgba(255, 220, 157, 0.35), transparent 40%),
+    linear-gradient(180deg, #eff5ff 0%, #e9f1ff 45%, #f7fbff 100%);
+  min-height: 100vh;
+}
+
+.masthead {
+  background: rgba(245, 250, 255, 0.84);
+  border-bottom: 1px solid var(--tz-border);
+  backdrop-filter: blur(14px);
+}
+
+.masthead__menu-item a {
+  color: var(--tz-text);
+  letter-spacing: 0.02em;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav .visible-links a:before {
+  background: linear-gradient(90deg, var(--tz-accent), var(--tz-accent-2));
+  height: 2px;
+}
+
+.author__avatar img,
+.author__avatar {
+  border-radius: 20px;
+  border: 1px solid var(--tz-border);
+  box-shadow: var(--tz-shadow);
+}
+
+.profile_box {
+  background: var(--tz-panel-soft);
+  border: 1px solid var(--tz-border);
+  border-radius: 22px;
+  padding: 1rem;
+  box-shadow: var(--tz-shadow);
+}
+
+.author__name {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 2rem;
+}
+
+.author__bio,
+.author__urls li,
+.author__urls a {
+  color: var(--tz-muted);
+}
+
+.page {
+  margin-bottom: 1.5rem;
+}
+
+.page .page__inner-wrap {
+  background: var(--tz-panel);
+  border: 1px solid var(--tz-border);
+  border-radius: 24px;
+  padding: 1.2rem 1.5rem 1.4rem;
+  box-shadow: var(--tz-shadow);
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  font-family: "Fraunces", serif;
+  color: #132742;
+  border-bottom: none;
+}
+
+.page__content h2 {
+  margin-top: 1.6rem;
+  font-size: 1.7rem;
+}
+
+.page__content p,
+.page__content li {
+  color: #243a5e;
+  font-size: 1.04rem;
+  line-height: 1.72;
+}
+
+.page__content strong {
+  color: #122746;
+}
+
+.page__content a {
+  color: var(--tz-accent);
+}
+
+.hero-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--tz-border);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 94% 5%, rgba(113, 182, 255, 0.2), transparent 30%),
+    linear-gradient(135deg, rgba(253, 255, 255, 0.92) 0%, rgba(237, 245, 255, 0.88) 100%);
+  padding: 1.3rem 1.2rem;
+}
+
+.hero-kicker {
+  margin: 0;
+  color: var(--tz-accent-2);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  margin: 0.2rem 0 0.2rem;
+  font-size: clamp(1.75rem, 3.6vw, 2.55rem);
+  line-height: 1.12;
+}
+
+.hero-subtitle {
+  margin: 0 0 0.8rem;
+  color: #3c5880;
+  font-weight: 500;
+}
+
+.hero-alert {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  color: #2b2c11;
+  background: linear-gradient(90deg, var(--tz-accent-2), #ffe19f);
+}
+
+.news-slider-wrap {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.news-slider {
+  display: flex;
+  gap: 0.9rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.35rem;
+  scrollbar-width: thin;
+}
+
+.news-card {
+  scroll-snap-align: start;
+  min-width: clamp(255px, 37vw, 330px);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(240, 247, 255, 0.88));
+  border: 1px solid rgba(72, 130, 205, 0.26);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  box-shadow: 0 10px 22px rgba(32, 77, 133, 0.14);
+}
+
+.news-card p {
+  margin: 0;
+}
+
+.news-date {
+  margin-bottom: 0.35rem !important;
+  color: var(--tz-accent-2) !important;
+  font-weight: 700;
+  font-size: 0.95rem !important;
+}
+
+.news-nav {
+  border: 1px solid var(--tz-border);
+  border-radius: 999px;
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #12345d;
+  font-size: 1.05rem;
+  background: linear-gradient(130deg, #ffffff, #d9ecff);
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(32, 77, 133, 0.16);
+}
+
+.news-nav:hover {
+  transform: translateY(-1px);
+}
+
+.site-signature {
+  margin: 0 auto 1.8rem;
+  max-width: 1200px;
+  text-align: center;
+  color: var(--tz-muted);
+  font-size: 0.88rem;
+  letter-spacing: 0.03em;
+}
+
+#education,
+#news {
+  scroll-margin-top: 5.2rem;
+}
+
+@media (max-width: 900px) {
+  .page .page__inner-wrap {
+    padding: 1rem 1rem 1.2rem;
+  }
+
+  .news-slider-wrap {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .news-nav {
+    display: none;
+  }
+}

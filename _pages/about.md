@@ -1,115 +1,94 @@
 ---
+layout: sunny
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: "Home"
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section class="hero">
+  <div class="hero-main">
+    <img class="hero-avatar" src="{{ '/images/avatar.jpeg' | relative_url }}" alt="Tianya Zhao avatar">
+    <div>
+      <h1>Tianya Zhao (赵天涯)</h1>
+      <p class="hero-sub">Ph.D. Candidate, Computer Science, Florida International University</p>
+      <div class="hero-links">
+        {% if site.author.googlescholar %}
+        <a class="hero-link-chip" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        {% endif %}
+        {% if site.author.email %}
+        <a class="hero-link-chip" href="mailto:{{ site.author.email }}">Email</a>
+        {% endif %}
+        {% if site.author.linkedin %}
+          {% if site.author.linkedin contains 'http' %}
+        <a class="hero-link-chip" href="{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          {% else %}
+        <a class="hero-link-chip" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <p>My name is Tianya Zhao (赵天涯). I am a Ph.D. candidate studying computer science at Florida International University (FIU), supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to this, I received my Master’s degree from Carnegie Mellon University and my Bachelor’s degree from Hunan University.</p>
+  <p>My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for Time Series, and Smart Health. I am excited about the potential impact my research can have on the field of computer science and beyond. Outside of my academic pursuits, I like playing soccer⚽️ and hiking🧗.</p>
+  <p class="job-tag">I am currently on the job market for faculty positions and industry research scientist roles.</p>
+</section>
 
-<span class='anchor' id='about-me'></span>
+<section class="section-card" id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Expected June 2026</strong>: Ph.D. in Computer Science, Florida International University, Miami, FL, USA.</li>
+    <li><strong>May 2022</strong>: M.Sc. in Civil and Environmental Engineering, Carnegie Mellon University, Pittsburgh, PA, USA.</li>
+    <li><strong>June 2019</strong>: B.Eng. in Civil Engineering, Hunan University, Changsha, China.</li>
+  </ul>
+</section>
 
-My name is Tianya Zhao (赵天涯). I am a Ph.D. candidate studying computer science at Florida International University (FIU), supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to this, I received my Master's degree from Carnegie Mellon University and my Bachelor's degree from Hunan University.
+<section class="section-card" id="news">
+  <h2>Latest News</h2>
+  <div class="news-slider-wrap" data-news-slider>
+    <button class="news-nav news-nav-prev" aria-label="Previous news" data-news-prev>&larr;</button>
+    <div class="news-slider" data-news-track>
+      <article class="news-card"><p class="news-date">Feb 2026</p><p>One paper accepted by IEEE/CVF CVPR 2026. Congratulations, Jingzhou.</p></article>
+      <article class="news-card"><p class="news-date">Jan 2026</p><p><em>EMPalm</em> accepted by ACM SenSys 2026. Congratulations, Haowen.</p></article>
+      <article class="news-card"><p class="news-date">Oct 2025</p><p>One paper accepted by IEEE TMC.</p></article>
+      <article class="news-card"><p class="news-date">Oct 2025</p><p>Invited to serve as TPC member of IEEE ICNC 2026.</p></article>
+      <article class="news-card"><p class="news-date">Mar 2025</p><p>Passed dissertation proposal defense.</p></article>
+      <article class="news-card"><p class="news-date">Feb 2025</p><p>One paper accepted by ACM SenSys 2025.</p></article>
+    </div>
+    <button class="news-nav news-nav-next" aria-label="Next news" data-news-next>&rarr;</button>
+  </div>
+</section>
 
-My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for Time Series, and Smart Health. I am excited about the potential impact my research can have on the field of computer science and beyond. Outside of my academic pursuits, I like playing soccer⚽️ and hiking🧗.
+<section class="section-card" id="teaching">
+  <h2>Teaching</h2>
+  <ul>
+    <li><strong>Teaching Assistant</strong>, Machine Learning, Florida International University, Fall 2022 - Summer 2024.</li>
+  </ul>
+</section>
 
-<i><span style="color:red">I am currently on the job market, seeking faculty positions in academia as well as research scientist roles in industry.</span></i>
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+<section class="section-card">
+  <h2>Visitor Map</h2>
+  <div style="width: 220px; height: auto; overflow: hidden;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Mlfw5u2_P8S719B3TKDw7wNb4-gZunfTvgXVLD0rLCY&cl=ffffff&w=a"></script>
+  </div>
+</section>
 
-# 📖 Educations
-- *Expected 2026.6*, Ph.D. in Computer Science, Florida International University, Miami, Florida, USA. 
-- *2022.5*, M.Sc in Civil and Environmental Engineering, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA. 
-- *2019.6*, B.Eng in Civil Engineering, Hunan University, Changsha, Hunan, China. 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var root = document.querySelector('[data-news-slider]');
+    if (!root) return;
+    var track = root.querySelector('[data-news-track]');
+    var prev = root.querySelector('[data-news-prev]');
+    var next = root.querySelector('[data-news-next]');
 
-# 🔥 News
-- *2026.02*: One paper has been accepted by IEEE/CVF CVPR 2026. Congratulations, Jingzhou!
-- *2026.01*: *EMPalm* has been accepted by ACM SenSys 2026. Congratulations, Haowen!
-- *2025.10*: One paper has been accepted by IEEE TMC.
-- *2025.10*: I am invited to serve as a TPC of IEEE ICNC 2026. Please consider submitting your papers.
-- *2025.03*: I passed my dissertation proposal defense!
-- *2025.02*: One paper has been accepted by ACM SenSys 2025.  
-- *2024.12*: Two papers have been accepted by IEEE INFOCOM 2025. 
-- *2024.10*: One paper has been accepted by IEEE TMC.
+    function step() {
+      return Math.max(280, Math.round(track.clientWidth * 0.72));
+    }
 
-<!-- &nbsp;🎉🎉  -->
+    prev.addEventListener('click', function () {
+      track.scrollBy({ left: -step(), behavior: 'smooth' });
+    });
 
-# 📝 Publications
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
-Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=XjK-arkAAAAJ).
-
-**Selected Conference Publications**
-<ol reversed>
-  <li>Jingzhou Shen, <strong>Tianya Zhao</strong>, and Xuyu Wang, "A Geometric Algebra-Informed 3DGS Framework for Wireless Channel Prediction", in <i style="color: red;">Proc. IEEE/CVF CVPR 2026</i>, Denver, CO, June 2026. (Acceptance rate: 25.4%)</li>
-  <li>Haowen Xu, <strong>Tianya Zhao</strong>, Xuyu Wang, Lei Ma, Jun Dai, Alexander Wyglinski, and Xiaoyan Sun, "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channel", in <i style="color: red;">Proc. ACM SenSys 2026</i>, Saint-Malo, France, May 2026. (Acceptance rate: 52/263=19.8%)</li>
-  <li><strong>Tianya Zhao</strong> and Xuyu Wang, "Data-Free Backdoor Attacks on Self-Supervised Human Activity Recognition Models," in <i>Proc. IEEE MASS 2025</i>, Chicago, IL, Oct. 2025.</li>
-  <li><strong>Tianya Zhao</strong>, Ningning Wang, and Xuyu Wang, "Membership Inference Against Self-supervised IMU Sensing Applications", in <i style="color: red;">Proc. ACM SenSys 2025</i>, Irvine, CA, May 2025. (Acceptance rate: 46/245=18.8%)</li>
-  <li>Ningning Wang, <strong>Tianya Zhao</strong>, Shiwen Mao, and Xuyu Wang, "Privacy-Preserving Wi-Fi Data Generation via Differential Privacy in Diffusion Models", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
-  <li><strong>Tianya Zhao</strong>, Ningning Wang, Junqing Zhang, and Xuyu Wang, "Protocol-agnostic and Data-free Backdoor Attacks on Pre-trained Models in RF Fingerprinting", in <i style="color: red;">Proc. IEEE INFOCOM 2025</i>, London, UK, May 2025. (Acceptance rate: 272/1458=18.7%)</li>
-  <li><strong>Tianya Zhao</strong>, Ningning Wang, Guanqun Cao, Shiwen Mao, and Xuyu Wang, "Functional Data Analysis Assisted Cross-Domain Wi-Fi Sensing Using Few-Shot Learning," in <i>Proc. IEEE ICC 2024</i>, Denver, CO, June 2024.</li>
-  <!-- <li><strong>Tianya Zhao</strong>, Ningning Wang, Yanzhao Wu, Wenbin Zhang, and Xuyu Wang, "Backdoor Attacks Against Low-Earth Orbit Satellite Fingerprinting," in <i>Proc. IEEE INFOCOM Workshop</i>, Vancouver, Canada, May 2024.</li> -->
-  <li><strong>Tianya Zhao</strong>, Xuyu Wang, Junqing Zhang, and Shiwen Mao, "Explanation-Guided Backdoor Attacks on Model-Agnostic RF Fingerprinting," in <i style="color: red;">Proc. IEEE INFOCOM 2024</i>, Vancouver, Canada, May 2024. (Acceptance rate: 256/1307=19.6%)</li>
-  <li><strong>Tianya Zhao</strong>, Xuyu Wang, and Shiwen Mao, "Cross-domain, Scalable, and Interpretable RF Device Fingerprinting," in <i style="color: red;">Proc. IEEE INFOCOM 2024</i>, Vancouver, Canada, May 2024. (Acceptance rate: 256/1307=19.6%).</li>
-  <li><strong>Tianya Zhao</strong>, Xuyu Wang, and Shiwen Mao, "Backdoor Attacks Against Deep Learning-based Massive MIMO Localization," in <i>Proc. IEEE GLOBECOM 2023</i>, Kuala Lumpur, Malaysia, Dec. 2023.</li>
-  <li>Azhar Chara*, <strong>Tianya Zhao*</strong>, Xuyu Wang, and Shiwen Mao, “Respiratory Biofeedback Using Acoustic Sensing with Smartphones,” in <i>Proc. IEEE/ACM CHASE 2023</i>, Orlando, FL, June 2023. (Acceptance rate: 23/103=22%, *co-first author)</li>
-</ol>
-<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
-
-**Journal Publications**
-<ol reversed>
-  <li><strong>Tianya Zhao</strong>, Junqing Zhang, Jun Dai, Xiaoyan Sun, and Xuyu Wang, "Unveiling the Threat: Data-Free Backdoor Attacks on Pre-Trained Models for RF Fingerprinting," <i>IEEE Transactions on Mobile Computing</i>, Just Accepted</li>
-  <li><strong>Tianya Zhao</strong>, Junqing Zhang, Shiwen Mao, and Xuyu Wang, "Explanation-guided backdoor attacks against model-agnostic RF fingerprinting systems", <i>IEEE Transactions on Mobile Computing</i>, vol.24, no.3, pp.2029-2042, Mar. 2025. DOI: 10.1109/TMC.2024.3487967.</li>
-</ol>
-
-# 🎖 Honors and Awards
-- *2025.5* FIU GPSC Conference Travel Funding.
-- *2024.5* NSF Student Travel Award for IEEE INFOCOM 2024. 
-- *2023.6* NSF Student Travel Award for IEEE/ACM CHASE 2023.
-- *2018.6* Men’s Football League Champion, Hunan University.
-
-# 📗 Services
-- *TPC Member*, IEEE ICNC 2026
-- *TPC Member*, ACM 2024 S3 Workshop, in conjunction with MobiCom 2024
-- *Reviewer*, IEEE INFOCOM DeepWireless Workshop 2023, 2024, 2025
-- *Reviewer*, ACM MobiCom MLNextG Workshop 2024
-- *Reviewer*, ACM CCS Posters 2024
-- *Reviewer*, ACM Transactions on Sensor Networks (TOSN)
-- *Reviewer*, IEEE Journal on Selected Areas in Communications (JSAC)
-- *Reviewer*, IEEE Transactions on Wireless Communications (TWC)
-- *Reviewer*, IEEE Transactions on Mobile Computing (TMC)
-- *Reviewer*, IEEE Transactions on Cognitive Communications and Networking (TCCN)
-- *Reviewer*, Ad Hoc Networks
-
-# 🧑‍🏫 Teaching
-- *Teaching Assistant*, Machine Learning, Florida International University, Fall 2022 - Summer 2024
-
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
-<!-- # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-
-# Acknowledge
-This page is copied from <a href="https://github.com/RayeRen/acad-homepage.github.io?tab=readme-ov-file">academicpages template</a>. Thanks for the contributors.
-
-<div style="width: 200px; height: auto; overflow: hidden;">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Mlfw5u2_P8S719B3TKDw7wNb4-gZunfTvgXVLD0rLCY&cl=ffffff&w=a"></script>
-</div>
+    next.addEventListener('click', function () {
+      track.scrollBy({ left: step(), behavior: 'smooth' });
+    });
+  });
+</script>

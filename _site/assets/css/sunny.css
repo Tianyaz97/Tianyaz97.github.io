@@ -1,0 +1,260 @@
+:root {
+  --bg: #fff9f0;
+  --bg-soft: #fffefb;
+  --ink: #24345a;
+  --ink-soft: #5b6b8a;
+  --line: #e6edf8;
+  --card: #ffffff;
+  --accent: #ff9f68;
+  --accent-2: #7ac7ff;
+  --success: #ffe8a3;
+  --shadow: 0 12px 26px rgba(115, 139, 183, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% -8%, #ffe8ce 0%, transparent 36%),
+    radial-gradient(circle at 95% 0%, #d9f2ff 0%, transparent 35%),
+    linear-gradient(180deg, var(--bg) 0%, #fffdf8 100%);
+}
+
+.shell {
+  width: min(1080px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.sun-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 251, 244, 0.86);
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-wrap {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-size: 1.45rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.sun-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.sun-nav a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.38rem 0.68rem;
+  border-radius: 999px;
+}
+
+.sun-nav a:hover {
+  background: #fff1e6;
+  color: var(--ink);
+}
+
+.page-shell {
+  padding: 1.3rem 0 2rem;
+}
+
+.hero {
+  background: linear-gradient(120deg, #ffffff 0%, #fefcff 100%);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  padding: 1.35rem 1.35rem;
+}
+
+.hero-main {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid #dce8fb;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Baloo 2", sans-serif;
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  line-height: 1.1;
+}
+
+.hero-sub {
+  margin: 0.35rem 0 0;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+
+.hero-links {
+  margin-top: 0.7rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-link-chip {
+  text-decoration: none;
+  color: #2a4b85;
+  background: #f2f7ff;
+  border: 1px solid #dbe8fb;
+  border-radius: 999px;
+  padding: 0.32rem 0.66rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.hero-link-chip:hover {
+  background: #e7f0ff;
+}
+
+.hero p {
+  margin: 0.8rem 0 0;
+  line-height: 1.72;
+}
+
+.job-tag {
+  display: inline-block;
+  margin-top: 0.7rem;
+  padding: 0.43rem 0.72rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #6c4b00;
+  background: var(--success);
+  border: 1px solid #f7d97a;
+}
+
+.section-card {
+  margin-top: 1rem;
+  padding: 1.05rem 1.1rem;
+  border-radius: 20px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.section-card h2 {
+  margin: 0 0 0.6rem;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 1.45rem;
+}
+
+.section-card p,
+.section-card li {
+  color: #2e446f;
+  line-height: 1.72;
+}
+
+.section-card ul,
+.section-card ol {
+  margin: 0.4rem 0 0;
+}
+
+.news-slider-wrap {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.news-slider {
+  display: flex;
+  gap: 0.7rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.2rem;
+}
+
+.news-card {
+  min-width: clamp(250px, 35vw, 318px);
+  scroll-snap-align: start;
+  background: #fff9f3;
+  border: 1px solid #ffe3cb;
+  border-radius: 14px;
+  padding: 0.75rem 0.85rem;
+}
+
+.news-card p {
+  margin: 0;
+}
+
+.news-date {
+  margin-bottom: 0.35rem !important;
+  color: #c1682a !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.news-nav {
+  width: 2.05rem;
+  height: 2.05rem;
+  border-radius: 999px;
+  border: 1px solid #ffd7b7;
+  background: #fff3e6;
+  color: #ba6a36;
+  cursor: pointer;
+}
+
+.news-nav:hover {
+  background: #ffe8d1;
+}
+
+.sun-footer {
+  text-align: center;
+  font-size: 0.86rem;
+  color: #6b7c99;
+  padding: 1rem 0 1.3rem;
+}
+
+@media (max-width: 780px) {
+  .hero-main {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-avatar {
+    width: 96px;
+    height: 96px;
+  }
+
+  .news-slider-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .news-nav {
+    display: none;
+  }
+}
