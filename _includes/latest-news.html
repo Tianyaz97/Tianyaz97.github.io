@@ -1,0 +1,9 @@
+{% assign news_limit = include.limit | default: 15 %}
+<div class="news-vertical-list">
+  {% for item in site.data.latest_news limit:news_limit %}
+    <article class="news-v-card">
+      <p class="news-date">{{ item.date }}</p>
+      <div class="news-v-content">{{ item.content }}</div>
+    </article>
+  {% endfor %}
+</div>

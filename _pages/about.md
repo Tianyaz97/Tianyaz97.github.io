@@ -43,18 +43,8 @@ title: "Home"
 
 <section class="section-card" id="news">
   <h2>Latest News</h2>
-  <div class="news-slider-wrap" data-news-slider>
-    <button class="news-nav news-nav-prev" aria-label="Previous news" data-news-prev>&larr;</button>
-    <div class="news-slider" data-news-track>
-      <article class="news-card"><p class="news-date">Feb 2026</p><p>One paper accepted by IEEE/CVF CVPR 2026. Congratulations, Jingzhou.</p></article>
-      <article class="news-card"><p class="news-date">Jan 2026</p><p><em>EMPalm</em> accepted by ACM SenSys 2026. Congratulations, Haowen.</p></article>
-      <article class="news-card"><p class="news-date">Oct 2025</p><p>One paper accepted by IEEE TMC.</p></article>
-      <article class="news-card"><p class="news-date">Oct 2025</p><p>Invited to serve as TPC member of IEEE ICNC 2026.</p></article>
-      <article class="news-card"><p class="news-date">Mar 2025</p><p>Passed dissertation proposal defense.</p></article>
-      <article class="news-card"><p class="news-date">Feb 2025</p><p>One paper accepted by ACM SenSys 2025.</p></article>
-    </div>
-    <button class="news-nav news-nav-next" aria-label="Next news" data-news-next>&rarr;</button>
-  </div>
+  <!-- <p><strong>How to update:</strong> edit <code>_data/latest_news.yml</code> only. Add one new item at the top.</p> -->
+  {% include latest-news.html limit=10 %}
 </section>
 
 <section class="section-card" id="teaching">
@@ -70,25 +60,3 @@ title: "Home"
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Mlfw5u2_P8S719B3TKDw7wNb4-gZunfTvgXVLD0rLCY&cl=ffffff&w=a"></script>
   </div>
 </section>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var root = document.querySelector('[data-news-slider]');
-    if (!root) return;
-    var track = root.querySelector('[data-news-track]');
-    var prev = root.querySelector('[data-news-prev]');
-    var next = root.querySelector('[data-news-next]');
-
-    function step() {
-      return Math.max(280, Math.round(track.clientWidth * 0.72));
-    }
-
-    prev.addEventListener('click', function () {
-      track.scrollBy({ left: -step(), behavior: 'smooth' });
-    });
-
-    next.addEventListener('click', function () {
-      track.scrollBy({ left: step(), behavior: 'smooth' });
-    });
-  });
-</script>
