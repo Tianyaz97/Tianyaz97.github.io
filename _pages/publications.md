@@ -30,7 +30,7 @@ title: "Publications"
 <section class="section-card">
   <h2>Journal Publications</h2>
   <ol>
-    <li><strong>Tianya Zhao</strong>, Junqing Zhang, Jun Dai, Xiaoyan Sun, and Xuyu Wang, "Unveiling the Threat: Data-Free Backdoor Attacks on Pre-Trained Models for RF Fingerprinting," <em>IEEE Transactions on Mobile Computing</em>, Just Accepted.</li>
+    <li><strong>Tianya Zhao</strong>, Junqing Zhang, Jun Dai, Xiaoyan Sun, and Xuyu Wang, "Unveiling the Threat: Data-Free Backdoor Attacks on Pre-Trained Models for RF Fingerprinting," <em>IEEE Transactions on Mobile Computing</em>, vol.25, no.4, pp.5421-5433, Apr. 2026. DOI: 10.1109/TMC.2025.3628527.</li>
     <li><strong>Tianya Zhao</strong>, Junqing Zhang, Shiwen Mao, and Xuyu Wang, "Explanation-guided backdoor attacks against model-agnostic RF fingerprinting systems", <em>IEEE Transactions on Mobile Computing</em>, vol.24, no.3, pp.2029-2042, Mar. 2025. DOI: 10.1109/TMC.2024.3487967.</li>
   </ol>
 </section>
