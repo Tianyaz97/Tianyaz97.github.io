@@ -35,7 +35,7 @@ title: "Home"
 <section class="section-card" id="education">
   <h2>Education</h2>
   <ul>
-    <li><strong>Expected June 2026</strong>: Ph.D. in Computer Science, Florida International University, Miami, FL, USA.</li>
+    <li><strong>July 2026</strong>: Ph.D. in Computer Science, Florida International University, Miami, FL, USA.</li>
     <li><strong>May 2022</strong>: M.Sc. in Civil and Environmental Engineering, Carnegie Mellon University, Pittsburgh, PA, USA.</li>
     <li><strong>June 2019</strong>: B.Eng. in Civil Engineering, Hunan University, Changsha, China.</li>
   </ul>

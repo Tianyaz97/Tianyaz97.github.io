@@ -20,5 +20,6 @@ title: "Services"
     <li><strong>Reviewer</strong>: IEEE Transactions on Cognitive Communications and Networking (TCCN)</li>
     <li><strong>Reviewer</strong>: Elsevier Ad Hoc Networks</li>
     <li><strong>Reviewer</strong>: IEEE Wireless Communications Letters</li>
+    <li><strong>Reviewer</strong>: IEEE Journal of Selected Topics in Signal Processing (J-STSP)</li>
   </ul>
 </section>
