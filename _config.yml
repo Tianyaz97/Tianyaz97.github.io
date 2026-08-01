@@ -24,9 +24,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Tianya Zhao"
   avatar           : "images/avatar.jpeg"
-  bio              : "Florida International University"
+  bio              : "Senior Research Scientist, Origin AI"
   location         : "Miami, Florda, USA"
-  employer         :
+  employer         : "Origin AI"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=XjK-arkAAAAJ"
   email            : "tzhao010@fiu.edu"

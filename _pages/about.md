@@ -9,7 +9,7 @@ title: "Home"
     <img class="hero-avatar" src="{{ '/images/avatar.jpeg' | relative_url }}" alt="Tianya Zhao avatar">
     <div>
       <h1>Tianya Zhao (赵天涯)</h1>
-      <p class="hero-sub">Ph.D. Candidate, Computer Science, Florida International University</p>
+      <p class="hero-sub">Senior Research Scientist, Origin AI<br>Ph.D. in Computer Science, Florida International University</p>
       <div class="hero-links">
         {% if site.author.googlescholar %}
         <a class="hero-link-chip" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
@@ -27,9 +27,8 @@ title: "Home"
       </div>
     </div>
   </div>
-  <p>My name is Tianya Zhao (赵天涯). I am a Ph.D. candidate studying computer science at Florida International University (FIU), supervised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to this, I received my Master’s degree from Carnegie Mellon University and my Bachelor’s degree from Hunan University.</p>
-  <p>My research interest includes Trustworthy AI, AIoT, Wireless Sensing, LLMs for Time Series, and Smart Health. I am excited about the potential impact my research can have on the field of computer science and beyond. Outside of my academic pursuits, I like playing soccer⚽️ and hiking🧗.</p>
-  <p class="job-tag">I am currently on the job market for faculty positions and industry research scientist roles.</p>
+  <p>My name is Tianya Zhao (赵天涯). I am a Senior Research Scientist at Origin AI, where I continue to work on Wi-Fi sensing and AI applications. I received my Ph.D. in Computer Science from Florida International University (FIU), advised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to that, I received my Master’s degree from Carnegie Mellon University and my Bachelor’s degree from Hunan University.</p>
+  <p>My research interests include Trustworthy AI, AIoT, Wireless Sensing, Wi-Fi Sensing, LLMs for Time Series, and Smart Health. I am particularly interested in building intelligent sensing systems that bridge wireless signals, machine learning, and real-world applications. Outside of my research, I enjoy playing soccer ⚽️ and hiking 🧗.</p>
 </section>
 
 <section class="section-card" id="education">
