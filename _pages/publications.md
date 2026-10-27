@@ -6,7 +6,7 @@ title: "Publications"
 
 <section class="section-card">
   <h2>Publications</h2>
-  <p>Here are selected publications. Full list: <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=XjK-arkAAAAJ">Google Scholar</a>.</p>
+  <p>Here are selected publications. Full list: <a href="https://scholar.google.com/citations?user=XjK-arkAAAAJ&hl=en">Google Scholar</a>.</p>
   <!-- <p><strong>How to update:</strong> add one new <code>&lt;li&gt;...&lt;/li&gt;</code> at the top of Conference or Journal list.</p> -->
 </section>
 
