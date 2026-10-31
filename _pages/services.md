@@ -7,6 +7,7 @@ title: "Services"
 <section class="section-card">
   <h2>Professional Services</h2>
   <ul>
+    <li><strong>PC Member</strong>: AAAI Doctoral Consortium 2027</li>
     <li><strong>PC Member</strong>: GenAI4HealthBI Workshop, IEEE/ACM CHASE 2026</li>
     <li><strong>TPC Member</strong>: IEEE ICNC 2026</li>
     <li><strong>TPC Member</strong>: ACM 2024 S3 Workshop (with MobiCom 2024)</li>
