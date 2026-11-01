@@ -8,7 +8,7 @@ title: "Home"
   <div class="hero-main">
     <img class="hero-avatar" src="{{ '/images/avatar.jpeg' | relative_url }}" alt="Tianya Zhao avatar">
     <div>
-      <h1>Tianya Zhao (赵天涯)</h1>
+      <h1>Tianya Zhao</h1>
       <p class="hero-sub">Senior Research Scientist, Origin AI<br>Ph.D. in Computer Science, Florida International University</p>
       <div class="hero-links">
         {% if site.author.googlescholar %}
@@ -27,7 +27,7 @@ title: "Home"
       </div>
     </div>
   </div>
-  <p>My name is Tianya Zhao (赵天涯). I am a Senior Research Scientist at Origin AI, where I continue to work on Wi-Fi sensing and AI applications. I received my Ph.D. in Computer Science from Florida International University (FIU), advised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to that, I received my Master’s degree from Carnegie Mellon University and my Bachelor’s degree from Hunan University.</p>
+  <p>My name is Tianya Zhao. I am a Senior Research Scientist at Origin AI, where I continue to work on Wi-Fi sensing and AI applications. I received my Ph.D. in Computer Science from Florida International University (FIU), advised by <a href="https://users.cs.fiu.edu/~xuywang/">Dr. Xuyu Wang</a>. Prior to that, I received my Master’s degree from Carnegie Mellon University and my Bachelor’s degree from Hunan University.</p>
   <p>My research interests include Trustworthy AI, AIoT, Wireless Sensing, Wi-Fi Sensing, LLMs for Time Series, and Smart Health. I am particularly interested in building intelligent sensing systems that bridge wireless signals, machine learning, and real-world applications. Outside of my research, I enjoy playing soccer ⚽️ and hiking 🧗.</p>
 </section>
 
